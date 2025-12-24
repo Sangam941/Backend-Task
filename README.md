@@ -76,5 +76,5 @@ Use the following base URL for all API requests:
 
 1. Clone the repository
 ```bash
-git clone <repo-link>
+git clone https://github.com/Sangam941/Backend-Task.git
 
