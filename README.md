@@ -99,9 +99,24 @@ Use the following base URL for all API requests:
 
 ---
 
-## Setup Instructions
 
-1. Clone the repository
+---
+
+## ⚙️ Setup Instructions
+
+### 🔹 Prerequisites
+
+Ensure the following are installed:
+
+- Node.js (v18 or later)
+- npm
+- MongoDB (Local or MongoDB Atlas)
+- Git
+
+---
+
+### 🔹 Clone the Repository
+
 ```bash
 git clone https://github.com/Sangam941/Backend-Task.git
 
