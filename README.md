@@ -120,3 +120,9 @@ Ensure the following are installed:
 ```bash
 git clone https://github.com/Sangam941/Backend-Task.git
 
+---
+
+### Install Dependencies
+```bash
+npm install
+
