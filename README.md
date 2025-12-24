@@ -122,6 +122,14 @@ git clone https://github.com/Sangam941/Backend-Task.git
 
 ```
 ---
+
+### 🔹install Dependencies
+
+```bash
+npm install
+```
+---
+
 ### 🔹 Environment Variables
 
 `PORT = `  
