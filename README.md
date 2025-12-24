@@ -44,6 +44,18 @@ This is a backend-only Mentor-Student Management System. Mentors can manage stud
 - Assignment → Submission: 1-to-1
 
 ---
+
+
+## 🛠️ Tech Stack
+
+- Node.js
+- Express.js
+- MongoDB & Mongoose
+- JWT (Authentication)
+- Bcrypt (Password Hashing)
+- ES Modules (`import` / `export`)
+
+---
 ## Base URL
 
 Use the following base URL for all API requests:
