@@ -56,6 +56,21 @@ This is a backend-only Mentor-Student Management System. Mentors can manage stud
 - ES Modules (`import` / `export`)
 
 ---
+
+## 📂 Project Structure
+├── src/
+│ ├── config/
+│ ├── controllers/
+│ ├── middlewares/
+│ ├── models/
+│ ├── routes/
+│ └── utils/
+├── .env
+├── .gitignore
+├── package.json
+├── package-lock.json
+└── server.js
+
 ## Base URL
 
 Use the following base URL for all API requests:
