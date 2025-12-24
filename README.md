@@ -141,9 +141,11 @@ npm install
 
 ### 🔹 Environment Variables
 
-`PORT = `  
-`MONGODB_URL = `  
-`JWT_SECRET = `  
-`JWT_TOKEN_EXPIRE = `  
+``` bash
+PORT = 
+MONGODB_URL =  
+JWT_SECRET = 
+JWT_TOKEN_EXPIRE = 
 
+```
 ---
