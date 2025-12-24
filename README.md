@@ -76,10 +76,10 @@ This is a backend-only Mentor-Student Management System. Mentors can manage stud
 Use the following base URL for all API requests:
 
 **Live (Deployed) Backend:**  
-`https://your-backend-domain.com/api`
+`https://backend-task-ml7b.onrender.com`
 
 **Local Development (Optional):**  
-`http://localhost:5000/api`
+`http://localhost:5000`
 
 ## API Endpoints
 
