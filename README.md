@@ -120,4 +120,13 @@ Ensure the following are installed:
 ```bash
 git clone https://github.com/Sangam941/Backend-Task.git
 
+```
+---
+### 🔹 Environment Variables
 
+`PORT = `  
+`MONGODB_URL = `  
+`JWT_SECRET = `  
+`JWT_TOKEN_EXPIRE = `  
+
+---
