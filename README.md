@@ -81,6 +81,14 @@ Use the following base URL for all API requests:
 **Local Development (Optional):**  
 `http://localhost:5000`
 
+## Mentor login credentials:
+```bash
+{
+    "email": "mentor@gmail.com",
+    "password": "mentor"
+}
+```
+---
 ## API Endpoints
 
 | Endpoint | Method | Description | Auth Required |
@@ -99,8 +107,6 @@ Use the following base URL for all API requests:
 
 ---
 
-
----
 
 ## ⚙️ Setup Instructions
 
