@@ -90,6 +90,8 @@ Use the following base URL for all API requests:
     "email": "mentor@gmail.com",
     "password": "mentor"
 }
+OR
+Can create a new mentor using `https://backend-task-ml7b.onrender.com/api/auth/register`
 ```
 ---
 ## API Endpoints
