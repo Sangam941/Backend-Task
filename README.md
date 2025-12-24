@@ -44,20 +44,31 @@ This is a backend-only Mentor-Student Management System. Mentors can manage stud
 - Assignment → Submission: 1-to-1
 
 ---
+## Base URL
+
+Use the following base URL for all API requests:
+
+**Live (Deployed) Backend:**  
+`https://your-backend-domain.com/api`
+
+**Local Development (Optional):**  
+`http://localhost:5000/api`
 
 ## API Endpoints
 
 | Endpoint | Method | Description | Auth Required |
 |----------|--------|-------------|---------------|
-| /api/auth/login | POST | Mentor login | ✅ |
-| /api/mentor/students | GET | Get all students | ✅ Mentor only |
-| /api/mentor/students | POST | Add student | ✅ Mentor only |
-| /api/mentor/students/:id | PUT | Update student | ✅ Mentor only |
-| /api/mentor/students/:id | DELETE | Delete student | ✅ Mentor only |
-| /api/assignments | POST | Assign task to student | ✅ Mentor only |
-| /api/mentor/assignments | GET | List assignments | ✅ Mentor only |
-| /api/submissions | POST | Student submits assignment | ❌ |
-| /api/submissions/:id/review | PUT | Mentor reviews submission | ✅ Mentor only |
+| https://backend-task-ml7b.onrender.com/api/auth/register | POST | Mentor register | ✅ |
+| https://backend-task-ml7b.onrender.com/api/auth/login | POST | Mentor login | ✅ |
+| https://backend-task-ml7b.onrender.com/api/students/get-all-student | GET | Get all students | ✅ Mentor only |
+| https://backend-task-ml7b.onrender.com/api/students/create-new-student | POST | Add student | ✅ Mentor only |
+| https://backend-task-ml7b.onrender.com/api/students/update-student/:id | PUT | Update student | ✅ Mentor only |
+| https://backend-task-ml7b.onrender.com/api/students/delete-student/:id | DELETE | Delete student | ✅ Mentor only |
+| https://backend-task-ml7b.onrender.com/api/assignment/create-assignment | POST | Assign task to student | ✅ Mentor only |
+| https://backend-task-ml7b.onrender.com/api/assignment/get-all-assignment | GET | List assignments | ✅ Mentor only |
+| https://backend-task-ml7b.onrender.com/api/submission/submit | POST | Student submits assignment | ❌ |
+| https://backend-task-ml7b.onrender.com/api/submission/all-submission | GET | List all submissions | ✅ Mentor only |
+| https://backend-task-ml7b.onrender.com/api/submission/review/:id | POST | Mentor reviews submission | ✅ Mentor only |
 
 ---
 
@@ -66,4 +77,4 @@ This is a backend-only Mentor-Student Management System. Mentors can manage stud
 1. Clone the repository
 ```bash
 git clone <repo-link>
-cd mentor-student-backend
+
